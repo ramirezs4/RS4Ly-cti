@@ -36,17 +36,8 @@ def Opcion1(EDO):
 
 #Opcion2 del MenuPrincipal
 def Opcion2():
-    #Red="66.240.205.4/24"
-    #no reportes
-    
-    #Red="61.177.173.1/24"
-    #con reportes
-    Red="192.168.0.1/24"
-    
-    #Red="74.125.0.2/24"
-    #Red sin reportes
-    
-    #Red=input("Inserte la Red que quiere analizar(/24 o superior)")
+   
+    Red=input("Inserte la Red que quiere analizar(/24 o superior)")
     
     #Llamar a las funciones, y guardar la data en variables
     Data4=AIPADBSU(Red)
