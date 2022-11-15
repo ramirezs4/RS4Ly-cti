@@ -102,7 +102,7 @@ def MenuDeOpciones(EDO):
 
 #Menu usuario
 while True:
-    print ("Saludos, Seleccione una opcion\n","1-Analisis de ip\n","2-Analisis de red(/24 o mayor)(No disponible)\n","3-Analisis de url(No disponible)\n","4-Analisis de archivos(No disponible)\n","0-Salir\n")
+    print ("Saludos, Seleccione una opcion\n","1-Analisis de ip\n","2-Analisis de red(/24 o mayor)(No disponible)\n","3-Analisis de url\n","4-Analisis de archivos(No disponible)\n","0-Salir\n")
     EDO=input("Su elección --> ")
     MenuDeOpciones(EDO)
     
